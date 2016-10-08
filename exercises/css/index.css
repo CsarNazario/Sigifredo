@@ -1,0 +1,16 @@
+h1,h2,h3,li,p{
+	font-family: sans-serif;
+
+}
+
+body{
+	text-align: justify;
+	width: 500px;
+	padding-left: 50px;
+	color: gray;
+}
+
+#Logo{
+
+	padding-left:150px;
+}

@@ -1,0 +1,5 @@
+1 - Es una lista de reglas mediante el cual se establece comunicacion entre dos o mas computadoras. 
+2 - En esta capa se manejan datos en ceros y unos, esta capa solo se encarga de la comunicacion desde un punto de vista estructural de los medios que se utilizan.
+3 - a la capa de red.
+4 - mientras tcp esta orientado a la conexion,es bidireccional y es basado en sockets. udp se enfoca al mensaje, es unidireccional y se basa en datagramas.
+ 
