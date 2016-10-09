@@ -10,24 +10,21 @@ console.log(promedio(7,9,10));
 console.log('----------------------------------------------------');
 //ejecicio2
 function padding (nLeft, nRight, text){
-    var padR = [];
-    var padL = [];
-    while(nLeft > 0){
-        padL.push('_');
-        nLeft = nLeft -1;
+    var cadenaResult = '';
+    for (var i = 0; i <= nLeft; i++) {
+        cadenaResult += '_';
     };
-    while(nRight > 0){
-        padR.push('_');
-        nRight = nRight -1;
+    cadenaResult += text;
+
+    for (var o = 0; o <= nRight; o++) {
+        cadenaResult += '_';
     };
-    return padL + text + padR;
+    return cadenaResult;
 }
 console.log(padding(3,4,'tu mama'));
 // fin ejercicio2
 console.log('----------------------------------------------------');
 //ejecicio3
-
-
 function piramyd (nLines, symbol){
     var symbolLines = '';
     for (var i = 1; i <= nLines; i++) {
